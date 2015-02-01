@@ -1,0 +1,14 @@
+---
+repos:
+  - aronasorman/radioactiveramenproject
+  - aronasorman/testrepo
+
+labels:
+  - name: beginner
+    color: 265844
+  - name: expert
+    color: 856699
+
+milestones:
+  - name: 0.14.x
+  - name: 0.15.x
