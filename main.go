@@ -15,18 +15,13 @@ func (t Token) Token() (*oauth.Token, error) {
 	return &oauth.Token{AccessToken: string(t)}, nil
 }
 
-type Label struct {
-	Name  string
-	Color string
-}
-
 type Milestone struct {
 	Name string
 }
 
 type Config struct {
 	Repos      []string
-	Labels     []Label
+	Labels     []github.Label
 	Milestones []Milestone
 }
 
